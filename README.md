@@ -83,7 +83,7 @@ If you would like to run the service locally on your device and getting the chan
     ```sh
     $ docker run -dp <PORT>:3000 <your-username>/<service/app-name>
     ```
-   `<PORT>` can be any port number you like. 
+    `<PORT>` can be any port number you like. 
      
   * Use the serivce (In your broswer):  
      * paste `http://localhost:<PORT>/health` for the _Health Service_.        
