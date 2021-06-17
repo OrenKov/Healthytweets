@@ -75,14 +75,14 @@ If you would like to run the service locally on your device and getting the chan
 
 3. __Docker__ -
   * Build the docker:
-   ```sh
-   $ docker build . -t <your-username>/<service/app-name>
-   ```
+    ```sh
+    $ docker build . -t <your-username>/<service/app-name>
+    ```
       
   * Run the docker:
-   ```sh
-   $ docker run -dp <PORT>:3000 <your-username>/<service/app-name>
-   ```
+    ```sh
+    $ docker run -dp <PORT>:3000 <your-username>/<service/app-name>
+    ```
    `<PORT>` can be any port number you like. 
      
   * Use the serivce (In your broswer):  
