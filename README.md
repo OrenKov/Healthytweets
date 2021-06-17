@@ -104,8 +104,8 @@ If you would like to run the service locally on your device and getting the chan
   
 ## Cerdits And Resources
 * For calculating the CPU Usage in the  `healthytweets.js` file, I used [this code](https://gist.github.com/bag-man/5570809) with some small modifications.
-* More about Dockerizing a Node.js web app, can be found [here](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/).
-* For more details about _Environment Variables_ and how to properly use them, watch that [youtube video](https://www.youtube.com/watch?v=17UVejOw3zA)
+* More about Dockerizing a Node.js web app can be found [here](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/).
+* For more details about _Environment Variables_ and how to properly use them, watch that [youtube video](https://www.youtube.com/watch?v=17UVejOw3zA).
 
    
 
