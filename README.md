@@ -11,7 +11,7 @@ An implemented [Autodesk Intern Home Assignment](https://gist.github.com/guyguyo
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#service-details">Service Details</a></li>
-    <li><a href="#run-the-service-in-heroku">Run The Service In Heroku</a></li>
+    <li><a href="#run-the-service-using-heroku">Run The Service Using Heroku</a></li>
     <li><a href="#run-the-service-locally-with-a-docker">Run The Service Locally With a Docker</a></li>
     <li><a href="#cerdits-and-resources">Cerdits And Resources</a></li>
   </ol>
@@ -27,7 +27,7 @@ The service has 2 endpoints:
    
   <br/>
   
-## Run The Service In Heroku
+## Run The Service Using Heroku
 If you would like to run the closed-service online, follow the instructions below.
   
 ### The Heroku API
