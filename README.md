@@ -86,8 +86,9 @@ If you would like to run the service locally on your device and getting the chan
    `<PORT>` can be any port number you like. 
      
   * Use the serivce (In your broswer):  
-     paste `http://localhost:<PORT>/health` for the _Health Service_.  
-     paste `http://localhost:<PORT>/tweets?query=YOUR_STRING`, for the _Twitter Service_.  
+     * paste `http://localhost:<PORT>/health` for the _Health Service_.        
+     * paste `http://localhost:<PORT>/tweets?query=YOUR_STRING`, for the _Twitter Service_.  
+     
        
   * Stop the docker:  
     use the command: 
@@ -101,6 +102,12 @@ If you would like to run the service locally on your device and getting the chan
     $ docker stop <CONTAINER ID>
     ```
   <br/>
+  
+  :exclamation:  __NOTE:__ The health-check data returned by the service is about the docker machine, and NOT about your own computer (due to the fact the service is running on the docker).
+  
+  <br/>
+
+
   
 ## Cerdits And Resources
 * For calculating the CPU Usage in the  `healthytweets.js` file, I used [this code](https://gist.github.com/bag-man/5570809) with some small modifications.
